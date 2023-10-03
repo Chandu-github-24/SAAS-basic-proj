@@ -1,0 +1,32 @@
+$colorofthetext: green;
+$fontsize: 30px;
+$bgcolor: grey;
+$h2bgcolor: white;
+$sizeofpara : 13px;
+
+$colorblue : rgb(13, 255, 0);
+
+body {
+    background-color: $bgcolor;
+}
+
+h1 {
+    font-size: $fontsize;
+    background-color: $bgcolor;
+}
+
+h2 {
+    background-color: $h2bgcolor;
+}
+
+.head h1 {
+    background-color: $h2bgcolor;
+}
+
+.second-content h1 {
+    color: $colorblue;
+}
+
+.second-content p{
+    font-size: $sizeofpara;
+}
